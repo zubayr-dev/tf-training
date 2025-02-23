@@ -15,3 +15,4 @@ variable "aws_secret_key" {
   type        = string
   sensitive   = true
 }
+# Create separate "*.tfvars" to hold the values of above non-default variables
